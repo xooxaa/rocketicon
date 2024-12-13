@@ -1,0 +1,20 @@
+{
+  "name": "rocketidenticon",
+  "version": "0.0.0",
+  "description": "hash based rocket identicon genrator",
+  "main": "./src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xooxaa/rocketicon.git"
+  },
+  "keywords": [
+    "identicon",
+    "rocket"
+  ],
+  "author": "xooxaa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xooxaa/rocketicon/issues"
+  },
+  "homepage": "https://github.com/xooxaa/rocketicon#readme"
+}
