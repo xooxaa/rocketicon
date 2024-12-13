@@ -1,6 +1,7 @@
 {
+  "type": "module",
   "name": "rocketidenticon",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "hash based rocket identicon genrator",
   "main": "./src/index.js",
   "repository": {

@@ -1,6 +1,6 @@
-# 🚀 Rocketicon
+# 🚀 Rocketidenticon
 
-`rocketicon` is an npm package that generates unique, deterministic rocket icons (SVG format) based on a hashed input. Each rocket is made up of different components (nose, body, fins, exhaust) that are selected based on the input string. Perfect for creating unique user avatars, placeholders, or fun visual identifiers!
+`rocketidenticon` is an npm package that generates unique, deterministic rocket icons (SVG format) based on a hashed input. Each rocket is made up of different components (nose, body, fins, exhaust) that are selected based on the input string. Perfect for creating unique user avatars, placeholders, or fun visual identifiers!
 
 ## Features
 
@@ -14,7 +14,7 @@
 Install the package via npm:
 
 ```bash
-npm install rocketicon
+npm install rocketidenticon
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ npm install rocketicon
 ### Basic Example
 
 ```javascript
-import { getRocketSVG } from "rocketicon";
+import { getRocketSVG } from "rocketidenticon";
 
 const input = "exampleUser123";
 const rocketSVG = getRocketSVG(input);
@@ -35,7 +35,7 @@ console.log(rocketSVG);
 You can save the generated SVG to a file using Node.js:
 
 ```javascript
-import { getRocketSVG } from "rocketicon";
+import { getRocketSVG } from "rocketidenticon";
 import fs from "fs";
 
 const input = "exampleUser123";
@@ -78,7 +78,7 @@ Here’s an example of a generated SVG:
 ## File Structure
 
 ```plaintext
-rocketicon/
+rocketidenticon/
 ├── src/
 │   ├── index.js         # Main entry point
 │   ├── hashUtils.js     # Utility functions for hashing and mapping
@@ -123,7 +123,7 @@ Contributions are welcome! If you have ideas for new rocket components, color sc
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://opensource.org/license/mit) file for details.
 
 ## Acknowledgements
 
